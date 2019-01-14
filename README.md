@@ -33,9 +33,6 @@ En cuanto a si juegan sólos o en grupo, hubo un empate 50%.
 
 [Aqui puedes revisar mayores detalles de nuestra investigación UX](https://drive.google.com/open?id=11u7ZxFe7yMA43Cb8CPaR8D7AJoGw2h5n0X3-jVJIc5Q)
 
-
 [Aqui puedes revisar nuestro prototipo de alta calidad](https://www.figma.com/file/JnvU0STLoUFQHGe1I4uMSeoJ/POKEMON-strategist?node-id=6%3A0)
-
-
 
 [Aqui puedes revisar nuestra planificación en Trello](https://trello.com/b/j5Rkq8ZW)
