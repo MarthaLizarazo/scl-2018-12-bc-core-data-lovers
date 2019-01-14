@@ -187,8 +187,26 @@ const nameAsc = dataNames.sort();
 const descName = nameAsc.reverse();
 
 */
-
-
+// Función Ordenar A-Z y Z-A
+const data = dataPokemon;
+const orderAz = (data,status)=>{if (status==="option3"){
+  data.sort(function(a,z){
+    if(a.name > z.name){return 1;
+  }
+      if(a.name < z.name){return -1;
+      }
+        return 0;
+  });
+} else if (status==="option4"){
+  data.reverse(function(a,z){
+    if(a.name > z.name){return 1;
+    }
+        if(a.name < z.name){return -1;
+        }
+          return 0;
+    });
+}
+}
  
 // Gráficos
 google.charts.load("current", {packages:["corechart"]});

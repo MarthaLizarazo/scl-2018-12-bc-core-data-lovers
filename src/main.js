@@ -53,28 +53,31 @@ btnStatistics = () => {
 
 
 //reverse / muestra los pokemones del 151 al 1
-const select151 = document.getElementById('numReverse');
-select151.addEventListener('change', () => {
-  document.getElementById('listPokemon').innerHTML = '';
-  const dataReverse = dataPokemon.reverse()
-  dataReverse.map(({num, name, img, id}) => 
-  document.getElementById('listPokemon').innerHTML += `
-  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
-    <div class="card w-100" style="width: 15rem;">
-      <img class="card-img-top imgPoke" src=${img}>
-      <div class="card-body">
-        <p>${num}</p>
-        <p>${name}</p>
-        <button class="btn btn-more" id="${id}"><i class="fas fa-plus"></i></button>
-      </div>
-    </div>
-  </div>
-  `
-  );
-
-
-})
+//const select151 = document.getElementById('numReverse');
+//select151.addEventListener('change', () => {
+//  document.getElementById('listPokemon').innerHTML = '';
+//  const dataReverse = dataPokemon.reverse()
+// // dataReverse.map(({num, name, img, id}) => 
+//  document.getElementById('listPokemon').innerHTML += `
+//  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
+//    <div class="card w-100" style="width: 15rem;">
+//      <img class="card-img-top imgPoke" src=${img}>
+//      <div class="card-body">
+//        <p>${num}</p>
+//        <p>${name}</p>
+//        <button class="btn btn-more" id="${id}"><i class="fas fa-plus"></i></button>
+//      </div>
+//    </div>
+//  </div>
+//  `
+//  );
+//
+//
+//})
 //document.getElementById('numReverse').onchange = () => {}
+
+//})
+
 
 
 //muestra todos los pokemones en cartas individuales en la pagina inicial
@@ -138,7 +141,7 @@ dataPokemon.forEach((element) => {
     });
     */
     
-
+document.getElementById("main").innerHTML="";
     //imprime en la pantalla la tarjeta de un pokemon
     document.getElementById('main').innerHTML += `
     <div class="card" style="width: 15rem;">
