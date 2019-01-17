@@ -52,10 +52,12 @@
            -->
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input id="searchForName" class="form-control mr-sm-2" type="search" placeholder="Buscar por nombre">
-          <button id="btnSearch" class="btn btn-outline-success text-white my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-        </form>
+            <input id="searchForName" class="form-control mr-sm-2" placeholder="Buscar por nombre">
+          </form>
+        <button id="btnSearchName" class="btn btn-outline-success text-white my-2 my-sm-0"><i class="fas fa-search"></i></button>
         <!-- 
+
+          
          -->
       </div>
     </nav>
@@ -70,8 +72,9 @@
           <div class="input-group-prepend">
             <label class="input-group-text" for="inputGroupSelect01">Ordenar por</label>
           </div>
-          <select class="custom-select" id="numReverse">
-            <option selected value="option1">1 - 151</option>
+          <select class="custom-select" id="order-select">
+            <option select value="0">Ordena Pokémon</option>
+            <option value="option1">1 - 151</option>
             <option value="option2">151 -1</option>
             <option value="option3">A - Z</option>
             <option value="option4">Z - A</option>

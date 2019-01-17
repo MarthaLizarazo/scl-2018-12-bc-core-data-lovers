@@ -158,47 +158,35 @@ const totalDragon = typeDragon.reduce(function(sumaDragon, spawn){
   const averageDragon=(totalDragon/counterDragon);
 
 
-window.typesPokemon;
-window.dataPokemon;
 
-/*
-window.data = {
-  filterData: (dataPokemon, searchPokemon) => {
-    const filterPokemonName = dataPokemon.filter(dataPokemon => (dataPokemon.name === searchPokemon));
-    console.log(filterPokemonName);
-
-  },
-
-  sortData: (dataPokemon, sortBy, sortOrder) => {
-
-  },
-
-  computeStats: (dataPokemon) => {
-    
-
+// Ordena A-Z y Z-A
+//const data = dataPokemon;
+const orderAz = (dataPoke,status)=>{if (status==='option1'){
+  dataPoke.sort(function(a,z){
+    if(a.num > z.num){return 1;
   }
-}
-
-// Función Ordenar Alfabeticamente Ascendente
-const dataNames = dataPokemon.map(function(element){ return element.name;});
-const nameAsc = dataNames.sort();
-
-// Ordenar Alfabeticamente Descendente
-const descName = nameAsc.reverse();
-
-*/
-// Función Ordenar A-Z y Z-A
-const data = dataPokemon;
-const orderAz = (data,status)=>{if (status==="option3"){
-  data.sort(function(a,z){
+      if(a.num < z.num){return -1;
+      }
+        return 0;
+  });
+} else if (status==='option2'){
+  dataPoke.reverse(function(a,z){
+    if(a.num > z.num){return 1;
+    }
+        if(a.num < z.num){return -1;
+        }
+          return 0;
+    });
+} else if (status==='option3'){
+  dataPoke.sort(function(a,z){
     if(a.name > z.name){return 1;
   }
       if(a.name < z.name){return -1;
       }
         return 0;
   });
-} else if (status==="option4"){
-  data.reverse(function(a,z){
+} else if (status==='option4'){
+  dataPoke.reverse(function(a,z){
     if(a.name > z.name){return 1;
     }
         if(a.name < z.name){return -1;
@@ -207,6 +195,7 @@ const orderAz = (data,status)=>{if (status==="option3"){
     });
 }
 }
+
  
 // Gráficos
 google.charts.load("current", {packages:["corechart"]});
@@ -291,14 +280,6 @@ google.charts.load('current', {'packages':['bar']});
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
 
-
-
-/*
-//filtrar por nombre, busca lo que se le ingresa en el input y lo compara con la info en dataPokemon
-const filterName = (dataPokemon, condition) => {
-  const filteredName = dataPokemon.filter(element => {
-    return element.name === condition
-  })
-  return filteredName;
-};
-*/
+window.typesPokemon;
+window.dataPokemon;
+      
