@@ -35,6 +35,7 @@ En cuanto a si juegan sólos o en grupo, hubo un empate 50%.
 
 
 
+## Investigación 
 ## Historias de Usuario 
 
 1. Como jugador regular de Pokémon GO, quiero voy a (atacar) un gimnasio 
@@ -65,7 +66,8 @@ Pokémon GO es un juego en el que se vuelve muy importante conocer ciertas carac
 
 Con el problema y el usuario definido llevamos a cabo el test de baja fidelidad usando herramientas como Sketching y wireframes, ya que es la forma más fácil de visualizar las ideas. Se dibujó a mano alzada para transmitir las ideas de forma rápida y sencilla, también flujos de navegación e interacción. 
 
-<img src="src/img/Testeo baja">
+<img src="src/img/Testeo baja/01.jpg">
+<img src="src/img/Testeo baja/02.jpg">
 
 
 Por medio de éste test se pudo reducir pantallas que eran innecesarias a la hora de interactuar en el proceso. Nos permitió visualizar las soluciones y decidir cual era el más asertivo. 
