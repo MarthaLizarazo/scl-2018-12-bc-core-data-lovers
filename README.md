@@ -68,22 +68,50 @@ Con el problema y el usuario definido llevamos a cabo el test de baja fidelidad 
 
 <img src="src/img/Testeo baja/01.jpg">
 <img src="src/img/Testeo baja/02.jpg">
+<img src="src/img/Testeo baja/03.jpg">
+<img src="src/img/Testeo baja/04.jpg">
+<img src="src/img/Testeo baja/05.jpg">
+<img src="src/img/Testeo baja/06.jpg">
+<img src="src/img/Testeo baja/07.jpg">
+<img src="src/img/Testeo baja/08.jpg">
 
 
 Por medio de éste test se pudo reducir pantallas que eran innecesarias a la hora de interactuar en el proceso. Nos permitió visualizar las soluciones y decidir cual era el más asertivo. 
 
 
+### Testeo de alta fidelidad
+
+Una vez pasado el test de baja, se realizaron los ajustes adecuados, decartando las pantallas innecesarias y dejándo las útiles se llevó a cabo el prototipado en alta.
+Para éste paso utilizamos FIGMA una herramienta de diseño de interfaz colaborativa donde podemos clickear como si estuvieramos en la App real.
+
+
+[Aqui puedes revisar el prototipo de alta calidad](https://www.figma.com/file/JnvU0STLoUFQHGe1I4uMSeoJ/POKEMON-strategist?node-id=6%3A0)
+(https://www.figma.com/proto/JnvU0STLoUFQHGe1I4uMSeoJ/POKEMON-strategist-MARTHA?node-id=0%3A1&scaling=scale-down)
 
 
 
+### Pruebas de usabilidad
 
-[Aqui puedes revisar nuestro prototipo de alta calidad](https://www.figma.com/file/JnvU0STLoUFQHGe1I4uMSeoJ/POKEMON-strategist?node-id=6%3A0)
+Se evaluó el producto con 5 usuarios representativos. Durante la prueba los usuarios siguieron una serie de tareas (en éste caso 3 tareas).
+Se observó, escuchó y se tomó notas. Logrando identificar muy pocos problemas de usabilidad, determinando la satisfacción del usuario por el producto.
+
+Los puntos a medir en los test de usabilidad fueron:
+ 1. Éxito en las tareas dadas.
+ 2. Timpo en realizar las tareas.
+ 3. Errores
+ 4. Evaluaciones heurísticas
+
+
 
 [Aqui puedes revisar nuestra planificación en Trello](https://trello.com/b/j5Rkq8ZW)
-
 
 ## Fuente investigación / Referencia
 
 https://www.ayerviernes.com/blog/pasos-para-preparar-una-propuesta-comercial-de-diseno-ux
 https://theblog.adobe.com/ux-process-what-it-is-what-it-looks-like-and-why-its-important/
 https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
+https://www.youtube.com/watch?v=v8JJrDvQDF4
+https://www.youtube.com/watch?v=V-An4Jfplew
+https://www.youtube.com/watch?v=ky6wFiF5vMk
+
+
